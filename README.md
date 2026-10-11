@@ -1,6 +1,6 @@
 # M5Stack CORE2 PlatformIO 開発ガイド
 
-[M5Stack CORE2](https://logikara.blog/core2_2/#mokuji_1) の開発環境として **PlatformIO (VS Code)** を使用したセットアップ手順、サンプルプログラム、および工場出荷状態に戻す方法をまとめた README です。
+[M5Stack CORE2] の開発環境として **PlatformIO (VS Code)** を使用したセットアップ手順、サンプルプログラム、および工場出荷状態に戻す方法をまとめた README です。
 
 ---
 
