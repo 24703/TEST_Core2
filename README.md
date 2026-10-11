@@ -31,7 +31,7 @@ CORE2のUSBチップには **CP2104** と **CH9102F** の2種類が存在しま�
 1. **[Visual Studio Code (VS Code)](https://logikara.blog/vscode_install/)** のインストール（および日本語化）
 2. **[Python](https://logikara.blog/python_install/)** のインストール
 3. VS Codeの拡張機能（Extensions）から **[PlatformIO](https://logikara.blog/install_platform/)** をインストール
-
+※インストール方法については省略します。
 ---
 
 ## 3. プロジェクトの作成と初期設定
