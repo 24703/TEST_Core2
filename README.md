@@ -1,7 +1,7 @@
 # M5Stack CORE2 PlatformIO 開発ガイド
 
-[M5Stack CORE2] の開発環境として **PlatformIO (VS Code)** を使用したセットアップ手順、サンプルプログラム、および工場出荷状態に戻す方法をまとめてみました。
-
+[M5Stack CORE2] の開発環境として **PlatformIO (VS Code)** を使用したセットアップ手順をまとめてみました。
+[参考サイト](https://logikara.blog/core2_2/)
 ---
 
 ## 目次
@@ -134,7 +134,8 @@ void loop() {
 platform = espressif32
 board = m5stack-core2
 framework = arduino
-lib_deps = m5stack/M5Core2@^0.1.5
+lib_deps = 
+	m5stack/M5Unified@^0.2.25
 
 ; ポートを手動指定する場合の追記
 upload_port = "COM6"       ; ご自身の環境のポート番号に変更
