@@ -53,12 +53,12 @@ CORE2のUSBチップには **CP2104** と **CH9102F** の2種類が存在しま�
 1. PlatformIO Homeのタブから **「Libraries」** を開く。<br>
    <img width="359" height="245" alt="image" src="images/1.png" />
 2. 検索窓に `M5Unified` と入力して、少し下にスクロールし **「M5Unified」** を選択します。<br>
-   <img width="353" height="197" alt="image" src="https://github.com/user-attachments/assets/effa9608-c177-4c30-9381-705202501da4" />
-   <img width="600" height="138" alt="image" src="https://github.com/user-attachments/assets/d6d0c0f1-7d0b-4fa5-9498-b080d4e4eca1" />
+   <img width="353" height="197" alt="image" src="images/2.png" />
+   <img width="600" height="138" alt="image" src="images/3.png" />
 
 3. **「Add to Project」** をクリックし、作成したプロジェクト名を選択して追加します。<br>
-  <img width="309" height="145" alt="image" src="https://github.com/user-attachments/assets/b9df7331-3b7c-402c-8af3-eddbf6d616ce" />
-　<img width="387" height="135" alt="image" src="https://github.com/user-attachments/assets/6b00630a-6604-4c2a-b263-d2f47a4e5c78" />
+  <img width="309" height="145" alt="image" src="images/4.png" />
+　<img width="387" height="135" alt="image" src="images/5.png" />
 
 ※従来の M5Core2 専用ライブラリは開発が実質終了しており、最新の開発環境（ESP32 ボード定義 v3.x など）では正しく動かないトラブルが報告されています。そのため、現在のM5Stack開発では、すべての機種を共通して動かせる最新の「M5Unified」ライブラリへの移行が強く推奨されています。<br>
  [M5Core2からM5Unifiedへの移行手順はこちら](MIGRATION.md)<br>
@@ -99,7 +99,7 @@ void loop() {
     M5.Power.setVibration(128);                                        
   } 
   else if (M5.BtnB.pressedFor(1000) || M5.BtnB.wasPressed()) {
-    // 💡注意: 先に長押しのクリア判定（wasReleaseFor）に引っかからないよう、BtnBは通常処理をさせます
+    // 注意: 先に長押しのクリア判定（wasReleaseFor）に引っかからないよう、BtnBは通常処理をさせます
     M5.Display.print('B');                                             
     M5.Power.setVibration(128);                                        
   } 
@@ -121,7 +121,7 @@ void loop() {
 ### 書き込み方法
 
 画面左下の **「→」アイコン（Upload）** をクリックすると、コンパイルおよび書き込みが実行されます。ターミナルに `SUCCESS` と表示されたら完了です。<br>
-<img width="558" height="211" alt="image" src="https://github.com/user-attachments/assets/716a9c7d-afcc-4195-ad69-7bbf398c3831" />
+<img width="558" height="211" alt="image" src="images/6.png" />
 
 ---
 
