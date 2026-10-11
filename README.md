@@ -51,7 +51,7 @@ CORE2のUSBチップには **CP2104** と **CH9102F** の2種類が存在しま�
 ## 4. ライブラリのインストール
 
 1. PlatformIO Homeのタブから **「Libraries」** を開く。<br>
-   <img width="359" height="245" alt="image" src="images/1.png" />
+   <img width="359" height="245" alt="image" src="images/2.png" />
 2. 検索窓に `M5Unified` と入力して、少し下にスクロールし **「M5Unified」** を選択します。<br>
    <img width="353" height="197" alt="image" src="https://github.com/user-attachments/assets/effa9608-c177-4c30-9381-705202501da4" />
    <img width="600" height="138" alt="image" src="https://github.com/user-attachments/assets/d6d0c0f1-7d0b-4fa5-9498-b080d4e4eca1" />
