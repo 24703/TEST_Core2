@@ -18,7 +18,7 @@ void setup() {
 // メイン ------------------------------------------------------
 void loop() {
   M5.update();                         // ボタン状態更新
-
+  
   // 【解説】wasPressed（1回押した）または pressedFor(1000)（1秒以上押しっぱなし中）
   if (M5.BtnA.wasPressed() || M5.BtnA.pressedFor(1000)) {
     M5.Display.print('A');                                                                                   
