@@ -52,11 +52,11 @@ CORE2のUSBチップには **CP2104** と **CH9102F** の2種類が存在しま�
 
 1. PlatformIO Homeのタブから **「Libraries」** を開く。<br>
    <img width="359" height="245" alt="image" src="https://github.com/user-attachments/assets/67cd31e2-9285-4a7e-bed0-cc3cb2c56160" />
-2. 検索窓に `M5Unified` と入力して、少し下にスクロールし **「M5Unified」** を選択します。
+2. 検索窓に `M5Unified` と入力して、少し下にスクロールし **「M5Unified」** を選択します。<br>
    <img width="353" height="197" alt="image" src="https://github.com/user-attachments/assets/effa9608-c177-4c30-9381-705202501da4" />
    <img width="600" height="138" alt="image" src="https://github.com/user-attachments/assets/d6d0c0f1-7d0b-4fa5-9498-b080d4e4eca1" />
 
-3. **「Add to Project」** をクリックし、作成したプロジェクト名を選択して追加します。
+3. **「Add to Project」** をクリックし、作成したプロジェクト名を選択して追加します。<br>
   <img width="309" height="145" alt="image" src="https://github.com/user-attachments/assets/b9df7331-3b7c-402c-8af3-eddbf6d616ce" />
 　<img width="387" height="135" alt="image" src="https://github.com/user-attachments/assets/6b00630a-6604-4c2a-b263-d2f47a4e5c78" />
 
