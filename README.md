@@ -20,7 +20,7 @@
 
 CORE2のUSBチップには **CP2104** と **CH9102F** の2種類が存在します。正常に認識させるため、**両方のドライバ（CH9102およびCP210x）をあらかじめ両方インストール**してください。
 
-* 📥 ドライバのダウンロード: [M5Stack Docs 公式ページ](https://docs.m5stack.com)
+* 📥 ドライバのダウンロード: [M5Stack Docs 公式ページ]([https://docs.m5stack.com](https://docs.m5stack.com/ja/core/Core2#:~:text=BSP%20%E4%BD%BF%E7%94%A8%E3%83%81%E3%83%A5%E3%83%BC%E3%83%88%E3%83%AA%E3%82%A2%E3%83%AB-,USB%20%E3%83%89%E3%83%A9%E3%82%A4%E3%83%90,-%E4%B8%8B%E8%A8%98%E3%83%AA%E3%83%B3%E3%82%AF%E3%81%8B%E3%82%89))
 
 ---
 
